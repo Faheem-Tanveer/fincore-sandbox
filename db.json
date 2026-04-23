@@ -1,0 +1,94 @@
+{
+  "users": [
+    {
+      "id": "u1",
+      "username": "faheem",
+      "password": "$2b$10$Fy48MK3s8tSMim.AKHgbgOaImoEoYoy/m6Ac831zPCtK7EpXmHKZS",
+      "name": "Faheem A."
+    },
+    {
+      "id": "u2",
+      "username": "admin",
+      "password": "$2b$10$mncX4Zj.dj6Or8gFi.tp5eWkHwKuku0GKxEtcQfx7C.Puhm3LnhLO",
+      "name": "Admin User"
+    }
+  ],
+  "accounts": [
+    {
+      "id": "ACC001",
+      "name": "Faheem A.",
+      "balance": 82530.5,
+      "type": "Savings",
+      "ifsc": "FINC0001234",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "ACC002",
+      "name": "Priya Nair",
+      "balance": 14100,
+      "type": "Current",
+      "ifsc": "FINC0001234",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "ACC003",
+      "name": "Karan Mehta",
+      "balance": 31750.75,
+      "type": "Savings",
+      "ifsc": "HDFC0005678",
+      "status": "ACTIVE"
+    }
+  ],
+  "transactions": [
+    {
+      "id": "TXN19705",
+      "fromAccount": "ACC001",
+      "toAccount": "ACC002",
+      "amount": 200,
+      "currency": "INR",
+      "note": "eidi",
+      "status": "SUCCESS",
+      "createdAt": "2026-04-23T19:40:13.155Z"
+    },
+    {
+      "id": "TXN66242",
+      "fromAccount": "ACC001",
+      "toAccount": "ACC002",
+      "amount": 1500,
+      "currency": "INR",
+      "note": "Monthly rent",
+      "status": "SUCCESS",
+      "createdAt": "2026-04-23T19:02:38.502Z"
+    },
+    {
+      "id": "TXN8821",
+      "fromAccount": "ACC001",
+      "toAccount": "ACC002",
+      "amount": 2000,
+      "currency": "INR",
+      "note": "Rent split",
+      "status": "SUCCESS",
+      "createdAt": "2026-04-20T10:14:00.000Z"
+    },
+    {
+      "id": "TXN8815",
+      "fromAccount": "ACC003",
+      "toAccount": "ACC001",
+      "amount": 500,
+      "currency": "INR",
+      "note": "Lunch",
+      "status": "SUCCESS",
+      "createdAt": "2026-04-18T15:32:00.000Z"
+    },
+    {
+      "id": "TXN8799",
+      "fromAccount": "ACC002",
+      "toAccount": "ACC003",
+      "amount": 10000,
+      "currency": "INR",
+      "note": "Insufficient funds",
+      "status": "FAILED",
+      "createdAt": "2026-04-15T09:05:00.000Z"
+    }
+  ]
+}
